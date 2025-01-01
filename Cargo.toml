@@ -46,6 +46,9 @@ wasm-bindgen-test = "0.3"
 [features]
 default = []
 
+arena-basic = []
+arena-advanced = []
+
 enable-body-part = []
 enable-area-effect = []
 enable-score = []
@@ -54,6 +57,13 @@ enable-bonus-flag = []
 arena-capture-the-flag = ["enable-body-part"]
 arena-spawn-and-swamp = []
 arena-collect-and-control = ["enable-area-effect", "enable-score"]
+
+arena-capture-the-flag-basic = ["arena-capture-the-flag", "arena-basic"]
+arena-capture-the-flag-advanced = ["arena-capture-the-flag", "arena-advanced"]
+arena-spawn-and-swamp-basic = ["arena-spawn-and-swamp", "arena-basic"]
+arena-spawn-and-swamp-advanced = ["arena-spawn-and-swamp", "arena-advanced"]
+arena-collect-and-control-basic = ["arena-collect-and-control", "arena-basic"]
+arena-collect-and-control-advanced = ["arena-collect-and-control", "arena-advanced"]
 
 season2-capture_the_flag = ["enable-body-part"]
 season2-power_split = ["enable-bonus-flag"]
