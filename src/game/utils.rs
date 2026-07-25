@@ -58,7 +58,7 @@ extern "C" {
     /// should be an object containing x and y properties. Returns TERRAIN_WALL,
     /// TERRAIN_SWAMP, or 0.
     #[wasm_bindgen(js_name = getTerrainAt)]
-    pub fn get_terrain_at(pos: &Object) -> Terrain;
+    pub fn get_terrain_at(pos: &JsValue) -> Terrain;
 
     /// Find all positions from the given positions array within the specified
     /// linear range.

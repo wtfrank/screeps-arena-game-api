@@ -10,6 +10,7 @@
 pub mod constants;
 pub mod enums;
 pub mod game;
+pub mod global;
 pub mod objects;
 pub mod traits;
 

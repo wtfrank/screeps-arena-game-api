@@ -114,6 +114,10 @@ extern "C" {
     #[wasm_bindgen(method, setter = costMatrix)]
     pub fn cost_matrix(this: &SearchPathOptions, cost_matrix: &CostMatrix);
 
+    /// CostMatrix (Container for custom navigation cost data)
+    #[wasm_bindgen(method, getter = costMatrix)]
+    pub fn get_cost_matrix(this: &SearchPathOptions) -> CostMatrix;
+
     /// Cost for walking on plain positions. The default is 1
     #[wasm_bindgen(method, setter = plainCost)]
     pub fn plain_cost(this: &SearchPathOptions, cost: u8);
