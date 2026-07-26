@@ -58,3 +58,7 @@ arena-collect-and-control = ["enable-area-effect", "enable-score"]
 season2-capture_the_flag = ["enable-body-part"]
 season2-power_split = ["enable-bonus-flag"]
 season2-construct_and_control = ["enable-area-effect"]
+
+season3-spawn_strike = []
+season3-power_split = []
+season3-escort_run = []
