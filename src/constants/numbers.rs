@@ -96,3 +96,5 @@ pub const EXTENSION_ENERGY_CAPACITY: u32 = 100;
 pub const SPAWN_ENERGY_CAPACITY: u32 = 1000;
 
 pub const SPAWN_HITS: u32 = 3000;
+
+pub const SPAWN_RANGE: u32 = 20;
