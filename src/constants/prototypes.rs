@@ -30,6 +30,7 @@ macro_rules! typesafe_prototype_constants {
 }
 
 typesafe_prototype_constants! {
+    pub struct GAME_OBJECT = (GAME_OBJECT_PROTOTYPE, GameObject);
     pub struct CONSTRUCTION_SITE = (CONSTRUCTION_SITE_PROTOTYPE, ConstructionSite);
     pub struct CREEP = (CREEP_PROTOTYPE, Creep);
     pub struct FLAG = (FLAG_PROTOTYPE, Flag);
