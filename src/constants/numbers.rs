@@ -35,23 +35,23 @@ pub const OBSTACLE_OBJECT_TYPES: &[&str; 6] = &[
 
 pub const TOWER_ENERGY_COST: u32 = 10;
 
-pub const TOWER_RANGE: u32 = 50;
+pub const TOWER_RANGE: u32 = 20;
 
 pub const TOWER_HITS: u32 = 3000;
 
-pub const TOWER_CAPACITY: u32 = 50;
+pub const TOWER_CAPACITY: u32 = 10;
 
-pub const TOWER_POWER_ATTACK: u32 = 150;
+pub const TOWER_POWER_ATTACK: u32 = 1000;
 
-pub const TOWER_POWER_HEAL: u32 = 100;
+pub const TOWER_POWER_HEAL: u32 = 600;
 
 pub const TOWER_POWER_REPAIR: u32 = 200;
 
-pub const TOWER_OPTIMAL_RANGE: u32 = 5;
+pub const TOWER_OPTIMAL_RANGE: u32 = 1;
 
-pub const TOWER_FALLOFF_RANGE: u32 = 20;
+pub const TOWER_FALLOFF_RANGE: u32 = 21;
 
-pub const TOWER_FALLOFF: f32 = 0.75_f32;
+pub const TOWER_FALLOFF: f32 = 1.0_f32;
 
 pub const TOWER_COOLDOWN: u32 = 10;
 
